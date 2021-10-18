@@ -128,7 +128,7 @@ function addDepartment() {
       message: "enter department ID:"
     }
     ]).then(function (response){
-      connection.query("INSERT INTO roles (title, salary, department_id) values (?,?,?)"[response.title, response.salary, response.department_id], 
+      connection.query("INSERT INTO employeeroles (title, salary, department_id) values (?,?,?)"[response.title, response.salary, response.department_id], 
       function (err, data){ console.table(data);
       })
       askQuestions();

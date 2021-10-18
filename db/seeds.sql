@@ -1,14 +1,14 @@
 USE employeetracker;
 
-INSERT INTO department (dept_name)
+INSERT INTO department (name)
 VALUES ("Accounting");
-INSERT INTO department (dept_name)
+INSERT INTO department (name)
 VALUES ("Operations");
-INSERT INTO department (dept_name)
+INSERT INTO department (name)
 VALUES ("Engineering");
-INSERT INTO department (dept_name)
+INSERT INTO department (name)
 VALUES ("Creative");
-INSERT INTO department (dept_name)
+INSERT INTO department (name)
 VALUES ("Logistics");
 
 INSERT INTO employeerole (title, salary, department_id)
